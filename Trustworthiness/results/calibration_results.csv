@@ -1,0 +1,6 @@
+model,temperature,ece_before,ece_after,mce_before,mce_after
+Logistic Regression,0.8682,0.0293,0.016,0.0737,0.0551
+Multinomial Naive Bayes,4.3775,0.1113,0.0498,0.3834,0.1642
+Linear SVM,0.9594,0.0157,0.013,0.094,0.0821
+Random Forest,0.6121,0.065,0.0043,0.1047,0.034
+XGBoost,0.8426,0.019,0.0118,0.0643,0.0752

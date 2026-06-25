@@ -1,0 +1,6 @@
+coverage,avg_set_size,abstention,singleton,model,qhat,alpha
+0.899,1.0077,0.0077,0.9923,Random Forest,0.5079,0.1
+0.8997,0.9912,0.0088,0.9912,Linear SVM,0.4835,0.1
+0.8945,1.0383,0.0383,0.9617,Logistic Regression,0.5443,0.1
+0.8991,0.9554,0.0446,0.9554,XGBoost,0.3897,0.1
+0.8977,1.0934,0.0934,0.9066,Multinomial Naive Bayes,0.9017,0.1
