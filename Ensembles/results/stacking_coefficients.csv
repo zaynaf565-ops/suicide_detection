@@ -1,0 +1,6 @@
+model,coefficient
+XGBoost,2.687696822360068
+Linear SVM,0.49980861515579394
+Random Forest,0.2310686935878513
+Multinomial Naive Bayes,-0.04243789160396423
+Logistic Regression,-0.18165396640627154

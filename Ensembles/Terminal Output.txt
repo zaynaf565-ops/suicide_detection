@@ -1,0 +1,105 @@
+
+(sea) C:\Users\muham\Desktop\suicide-detection>python Ensembles\run_ensemble.py
+Loading per model probabilities...
+  val matrix (32356, 5), calibration matrix (23112, 5)
+
+--- Uniform average ---
+
+=======================================================  Uniform Average
+  Metric                  Value
+  ------------------------------
+  f2                     0.9324
+  f1                     0.8877
+  precision              0.8220
+  recall                 0.9649
+  accuracy               0.8778
+  roc_auc                0.9664
+  pr_auc                 0.9665
+  threshold              0.2300
+  tp                      15625
+  fp                       3384
+  tn                      12778
+  fn                        569
+=======================================================
+
+
+--- Weighted voting (Nelder-Mead) ---
+  Weighted voting: best val F2 (coarse) = 0.9430
+
+=======================================================  Weighted Voting
+  Metric                  Value
+  ------------------------------
+  f2                     0.9430
+  f1                     0.9062
+  precision              0.8509
+  recall                 0.9692
+  accuracy               0.8996
+  roc_auc                0.9764
+  pr_auc                 0.9767
+  threshold              0.2000
+  tp                      15695
+  fp                       2750
+  tn                      13412
+  fn                        499
+=======================================================
+
+  Learned weights:
+                  model   weight
+                XGBoost 0.905550
+Multinomial Naive Bayes 0.079776
+    Logistic Regression 0.007449
+             Linear SVM 0.006385
+          Random Forest 0.000841
+
+--- Stacking (logistic regression meta learner) ---
+  Stacking: selected C = 1.0  (CV F2 = 0.9172)
+
+=======================================================  Stacking
+  Metric                  Value
+  ------------------------------
+  f2                     0.9426
+  f1                     0.9008
+  precision              0.8387
+  recall                 0.9727
+  accuracy               0.8927
+  roc_auc                0.9767
+  pr_auc                 0.9769
+  threshold              0.1000
+  tp                      15752
+  fp                       3029
+  tn                      13133
+  fn                        442
+=======================================================
+
+  Meta learner coefficients:
+                  model  coefficient
+                XGBoost     2.687697
+             Linear SVM     0.499809
+          Random Forest     0.231069
+Multinomial Naive Bayes    -0.042438
+    Logistic Regression    -0.181654
+
+================================================================================
+ENSEMBLE RESULTS (validation set, sorted by F2)
+================================================================================
+          model     f2     f1  precision  recall  roc_auc  pr_auc  accuracy  threshold
+Weighted Voting 0.9430 0.9062     0.8509  0.9692   0.9764  0.9767    0.8996     0.2000
+       Stacking 0.9426 0.9008     0.8387  0.9727   0.9767  0.9769    0.8927     0.1000
+Uniform Average 0.9324 0.8877     0.8220  0.9649   0.9664  0.9665    0.8778     0.2300
+================================================================================
+
+Saved results, weights, coefficients and probabilities under C:\Users\muham\Desktop\suicide-detection\Ensembles\results
+
+Ensemble stage complete.
+
+(sea) C:\Users\muham\Desktop\suicide-detection>
+
+
+
+
+
+
+
+
+
+
