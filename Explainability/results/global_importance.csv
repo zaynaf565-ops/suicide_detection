@@ -1,0 +1,101 @@
+model,rank,feature,importance
+Logistic Regression,1,suicide,5.5307
+Logistic Regression,2,life,5.3971
+Logistic Regression,3,kill,4.4235
+Logistic Regression,4,die,3.8296
+Logistic Regression,5,uppercase_ratio,3.6382
+Logistic Regression,6,want,3.572
+Logistic Regression,7,feel,3.542
+Logistic Regression,8,anymore,3.5114
+Logistic Regression,9,first_person_density,3.4828
+Logistic Regression,10,vader_neg,3.3922
+Logistic Regression,11,suicidal,3.3311
+Logistic Regression,12,help,3.167
+Logistic Regression,13,girl,3.1532
+Logistic Regression,14,filler,2.7555
+Logistic Regression,15,vader_neu,2.7341
+Logistic Regression,16,live,2.7276
+Logistic Regression,17,guy,2.608
+Logistic Regression,18,bored,2.5703
+Logistic Regression,19,filler filler,2.3552
+Logistic Regression,20,better,2.3549
+Multinomial Naive Bayes,1,filler filler,14.5693
+Multinomial Naive Bayes,2,pog,12.1297
+Multinomial Naive Bayes,3,free award,12.0683
+Multinomial Naive Bayes,4,nnn,12.0088
+Multinomial Naive Bayes,5,megathiccc,11.4635
+Multinomial Naive Bayes,6,give award,11.4606
+Multinomial Naive Bayes,7,snoo,11.4528
+Multinomial Naive Bayes,8,monke,11.4505
+Multinomial Naive Bayes,9,play among,11.3494
+Multinomial Naive Bayes,10,poggers,11.3438
+Multinomial Naive Bayes,11,fellow teen,11.3408
+Multinomial Naive Bayes,12,fellow teenager,11.2547
+Multinomial Naive Bayes,13,play number,11.1421
+Multinomial Naive Bayes,14,jojo,11.1287
+Multinomial Naive Bayes,15,femboys,11.1278
+Multinomial Naive Bayes,16,chat dm,11.1104
+Multinomial Naive Bayes,17,simping,11.1041
+Multinomial Naive Bayes,18,horny jail,11.098
+Multinomial Naive Bayes,19,posting everyday,11.0813
+Multinomial Naive Bayes,20,bonk,11.0706
+Linear SVM,1,life,1.8136
+Linear SVM,2,suicide,1.7845
+Linear SVM,3,kill,1.3825
+Linear SVM,4,anymore,1.165
+Linear SVM,5,feel,1.1491
+Linear SVM,6,die,1.1316
+Linear SVM,7,first_person_density,1.1097
+Linear SVM,8,suicidal,1.1059
+Linear SVM,9,want,1.0091
+Linear SVM,10,help,0.9181
+Linear SVM,11,live,0.913
+Linear SVM,12,end,0.8855
+Linear SVM,13,girl,0.8562
+Linear SVM,14,bored,0.8131
+Linear SVM,15,way,0.7649
+Linear SVM,16,uppercase_ratio,0.7623
+Linear SVM,17,better,0.7448
+Linear SVM,18,guy,0.74
+Linear SVM,19,going,0.7299
+Linear SVM,20,thought,0.7289
+Random Forest,1,first_person_count,0.024
+Random Forest,2,vader_neg,0.0208
+Random Forest,3,vader_compound,0.0194
+Random Forest,4,hopelessness_density,0.0181
+Random Forest,5,first_person_density,0.0172
+Random Forest,6,negation_count,0.017
+Random Forest,7,word_count,0.0159
+Random Forest,8,suicide,0.0144
+Random Forest,9,char_count,0.0141
+Random Forest,10,hopelessness_count,0.0125
+Random Forest,11,kill,0.0119
+Random Forest,12,life,0.0113
+Random Forest,13,negation_density,0.0096
+Random Forest,14,feel,0.009
+Random Forest,15,die,0.0088
+Random Forest,16,live,0.0083
+Random Forest,17,anymore,0.0081
+Random Forest,18,want,0.0079
+Random Forest,19,vader_neu,0.0073
+Random Forest,20,suicidal,0.0072
+XGBoost,1,iti,1.2494
+XGBoost,2,mei,1.1632
+XGBoost,3,sw,1.0483
+XGBoost,4,helpi,0.9567
+XGBoost,5,myselfi,0.7038
+XGBoost,6,diei,0.6397
+XGBoost,7,anymorei,0.6288
+XGBoost,8,lifei,0.5767
+XGBoost,9,donei,0.5611
+XGBoost,10,retarded,0.4872
+XGBoost,11,nowi,0.4689
+XGBoost,12,bruh,0.4591
+XGBoost,13,minecraft,0.4277
+XGBoost,14,discord,0.4196
+XGBoost,15,que,0.4145
+XGBoost,16,suicidei,0.4139
+XGBoost,17,suicidal,0.4101
+XGBoost,18,upi,0.3905
+XGBoost,19,rn,0.3887
+XGBoost,20,pill,0.363
