@@ -1,0 +1,23 @@
+# Single requirements file for the whole classical machine learning phase.
+# Install once into a fresh Python 3.11 environment with:
+#     pip install -r requirements.txt
+#
+# IMPORTANT: numpy is pinned below version 2, because pandas, matplotlib,
+# shap and several other packages here were built against numpy 1.x. Installing
+# numpy 2 will crash them. If anything ever upgrades numpy, run
+#     pip install "numpy<2"
+# again to fix it.
+
+numpy<2
+pandas
+scipy
+scikit-learn
+xgboost
+nltk
+vaderSentiment
+matplotlib
+joblib
+tqdm
+shap
+lime
+wordcloud
