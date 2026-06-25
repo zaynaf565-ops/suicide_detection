@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+# Trained models and per-row probability files are large and reproducible
+models/*.joblib
+results/predictions/*.csv
+!**/.gitkeep
