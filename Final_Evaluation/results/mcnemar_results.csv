@@ -1,0 +1,7 @@
+model_a,model_b,n01,n10,statistic,p_value
+Weighted Voting,Logistic Regression,1113,4293,1869.412,0.0
+Weighted Voting,Multinomial Naive Bayes,1525,3738,929.687,3.453697637543421e-204
+Weighted Voting,Linear SVM,906,2658,860.27,4.255400113762658e-189
+Weighted Voting,Random Forest,835,2473,810.087,3.4586264128467574e-178
+Weighted Voting,XGBoost,272,781,245.075,3.07730780673533e-55
+Weighted Voting,Stacking,179,489,142.936,6.07163143620506e-33
