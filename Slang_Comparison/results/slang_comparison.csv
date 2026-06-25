@@ -1,0 +1,6 @@
+model,f2_slang_off,f2_slang_on,gain
+XGBoost,0.9429,0.9428,-0.0001
+Linear SVM,0.9238,0.9312,0.0074
+Random Forest,0.9274,0.9274,0.0
+Multinomial Naive Bayes,0.9033,0.9036,0.0003
+Logistic Regression,0.9135,0.9014,-0.0121
