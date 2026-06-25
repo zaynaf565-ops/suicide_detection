@@ -1,9 +1,0 @@
-numpy
-pandas
-scipy
-scikit-learn
-xgboost
-nltk
-vaderSentiment
-matplotlib
-tqdm
