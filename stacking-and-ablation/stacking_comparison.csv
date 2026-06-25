@@ -1,0 +1,6 @@
+method,f2
+Client stacking (val),0.9437
+Client stacking (test),0.9433
+OOF stacking (test),0.9439
+Best single: XGBoost (test),0.9436
+Uniform average (test),0.9321

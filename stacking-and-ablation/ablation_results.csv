@@ -1,0 +1,16 @@
+feature_set,model,val_f2
+tfidf,Logistic Regression,0.9531
+tfidf,Multinomial Naive Bayes,0.9467
+tfidf,Linear SVM,0.9541
+tfidf,Random Forest,0.9307
+tfidf,XGBoost,0.9379
+handcrafted,Logistic Regression,0.8611
+handcrafted,Multinomial Naive Bayes,0.8298
+handcrafted,Linear SVM,0.859
+handcrafted,Random Forest,0.8776
+handcrafted,XGBoost,0.8817
+combined,Logistic Regression,0.8942
+combined,Multinomial Naive Bayes,0.9035
+combined,Linear SVM,0.9304
+combined,Random Forest,0.9268
+combined,XGBoost,0.9419
